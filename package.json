@@ -19,6 +19,7 @@
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build"
   },
+  "homepage": "https://glook137.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
