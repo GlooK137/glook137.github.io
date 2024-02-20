@@ -2,7 +2,7 @@
 title: "Emoji Support"
 date: "2024-02-20"
 description: "Guide to emoji usage in Hugo"
-tags: ["emoji"]
+tags: ["emoji", "papermod"]
 ShowToc: false
 ShowBreadCrumbs: false
 ---
