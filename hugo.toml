@@ -1,0 +1,4 @@
+baseURL = 'https://glook137.github.io/'
+languageCode = 'en-us'
+title = 'GlooK blog'
+theme = "PaperMod"
