@@ -11,3 +11,29 @@ theme = "PaperMod"
     safari_pinned_tab = "/image/safari-pinned-tab.svg"
     theme_color = "#2e2e33"
     msapplication_TileColor = "#2e2e33"
+
+[languages]
+
+  [languages.en]
+  languageName = ":en:"
+  weight = 1
+
+  [languages.en.taxonomies]
+  tag = "Tags"
+
+  [[languages.en.menu.main]]
+  name = "Tags"
+  url = "tags/"
+  weight = 10
+
+  [languages.ru]
+  languageName = ":ru:"
+  weight = 2
+
+  [languages.ru.taxonomies]
+  tag = "rutags"
+
+  [[languages.ru.menu.main]]
+  name = "Тэги"
+  url = "rutags"
+  weight = 10
