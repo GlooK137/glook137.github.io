@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>syntax on GlooK blog</title>
+    <link>https://glook137.github.io/tags/syntax/</link>
+    <description>Recent content in syntax on GlooK blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://glook137.github.io/tags/syntax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Syntax Guide</title>
+      <link>https://glook137.github.io/posts/code-sysntax-guide-papermod/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://glook137.github.io/posts/code-sysntax-guide-papermod/</guid>
+      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
+    </item>
+  </channel>
+</rss>

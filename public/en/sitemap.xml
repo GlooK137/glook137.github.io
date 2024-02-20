@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://glook137.github.io/tags/code/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://glook137.github.io/posts/code-sysntax-guide-papermod/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://glook137.github.io/tags/css/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,6 +15,9 @@
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://glook137.github.io/posts/emoji-support/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://glook137.github.io/tags/gist/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://glook137.github.io/</loc>
@@ -40,6 +49,9 @@
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://glook137.github.io/posts/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://glook137.github.io/tags/syntax/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://glook137.github.io/tags/</loc>
