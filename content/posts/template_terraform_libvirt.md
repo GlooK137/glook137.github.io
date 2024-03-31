@@ -20,7 +20,9 @@ terraform {
       source  = "dmacvicar/libvirt"
     }
   }
-}```
+}
+```
+
 network.tf 
 ```tf
 resource "libvirt_network" "test_net" {
@@ -36,6 +38,7 @@ resource "libvirt_network" "test_net" {
       }
 }
 ```
+
 variables.tf 
 ```tf
 resource "libvirt_volume" "debian_base" {
@@ -100,6 +103,7 @@ users:
     groups: sudo
     shell: /bin/bash
 ```
+
 cloudinit.tf 
 ```tf
 resource "libvirt_cloudinit_disk" "commoninit" {
