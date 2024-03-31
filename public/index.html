@@ -146,7 +146,8 @@
   <div class="entry-content">
     <p>main.tf
 provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; #uri = &#34;qemu&#43;ssh://root@ip/system&#34; } providers.tf
-terraform { required_providers { libvirt = { source = &#34;dmacvicar/libvirt&#34; } } }``` network.tf ```tf resource &#34;libvirt_network&#34; &#34;test_net&#34; { name = &#34;networktest&#34; mode = &#34;nat&#34; domain = &#34;network_home.local&#34; addresses = [&#34;10.17.3.0/24&#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf
+terraform { required_providers { libvirt = { source = &#34;dmacvicar/libvirt&#34; } } } network.tf
+resource &#34;libvirt_network&#34; &#34;test_net&#34; { name = &#34;networktest&#34; mode = &#34;nat&#34; domain = &#34;network_home.local&#34; addresses = [&#34;10.17.3.0/24&#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf
 resource &#34;libvirt_volume&#34; &#34;debian_base&#34; { name = &#34;debian_base&#34; source = &#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2&#34; format = &#34;qcow2&#34; } resource &#34;libvirt_volume&#34; &#34;alma_base&#34; { name = &#34;alma_base&#34; source = &#34;https://repo....</p>
   </div>
   <footer class="entry-footer"><span title='2024-03-04 17:19:34 +0500 +05'>March 4, 2024</span></footer>
