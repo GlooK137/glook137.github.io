@@ -2,40 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GlooK blog</title>
-    <link>https://glook137.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on GlooK blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://glook137.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Mar 2024 17:19:34 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Template terraform libvirt</title>
+      <link>http://localhost:1313/posts/template_terraform_libvirt/</link>
+      <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
+      <guid>http://localhost:1313/posts/template_terraform_libvirt/</guid>
+      <description>main.tf
+provider &amp;#34;libvirt&amp;#34; { uri = &amp;#34;qemu:///system&amp;#34; } </description>
+    </item>
+    <item>
+      <title>Roadmap</title>
+      <link>http://localhost:1313/roadmap/</link>
+      <pubDate>Fri, 23 Feb 2024 20:32:43 +0500</pubDate>
+      <guid>http://localhost:1313/roadmap/</guid>
+      <description>Kubernetes Introduction in Kubernetes: basics for container management Kubernetes architecture: datailed component analysis Установка и настройка Kubernetes: пошаговое руководство. Развертывание первого приложения в Kubernetes. Управление кластером Kubernetes: основные команды и практики. Непрерывная интеграция и доставка (CI/CD) с помощью Kubernetes. Сетевые настройки в Kubernetes: сервисы, ингрессы и сетевые политики. Масштабирование и балансировка нагрузки в Kubernetes. Системы хранения данных в Kubernetes: вольюмы, персистентные вольюмы и хранилище классов. Безопасность в Kubernetes: управление доступом и секретами.</description>
+    </item>
     <item>
       <title>Code Syntax Guide</title>
-      <link>https://glook137.github.io/posts/code-sysntax-guide-papermod/</link>
+      <link>http://localhost:1313/posts/code-sysntax-guide-papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://glook137.github.io/posts/code-sysntax-guide-papermod/</guid>
+      <guid>http://localhost:1313/posts/code-sysntax-guide-papermod/</guid>
       <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>https://glook137.github.io/posts/emoji-support/</link>
+      <link>http://localhost:1313/posts/emoji-support-papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://glook137.github.io/posts/emoji-support/</guid>
+      <guid>http://localhost:1313/posts/emoji-support-papermod/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
     <item>
       <title>Markdown Syntax Guide PaperMod</title>
-      <link>https://glook137.github.io/posts/markdown-syntax-guide-papermod/</link>
+      <link>http://localhost:1313/posts/markdown-syntax-guide-papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://glook137.github.io/posts/markdown-syntax-guide-papermod/</guid>
+      <guid>http://localhost:1313/posts/markdown-syntax-guide-papermod/</guid>
       <description>Link to original
 Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
 H1 H2 H3 H4 H5 H6 # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://glook137.github.io/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://glook137.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>Hello, my name is GlooK! print(&amp;#34;Hello, world!&amp;#34;) </description>
     </item>
   </channel>

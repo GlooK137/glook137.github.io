@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://glook137.github.io/ru/</loc>
+    <loc>http://localhost:1313/ru/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://glook137.github.io/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://glook137.github.io/ru/"
+                href="http://localhost:1313/ru/"
                 />
   </url><url>
-    <loc>https://glook137.github.io/ru/rutags/</loc>
+    <loc>http://localhost:1313/ru/rutags/</loc>
   </url>
 </urlset>

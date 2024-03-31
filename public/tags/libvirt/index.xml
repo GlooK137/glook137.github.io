@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Libvirt on GlooK blog</title>
+    <link>http://localhost:1313/tags/libvirt/</link>
+    <description>Recent content in Libvirt on GlooK blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Mar 2024 17:19:34 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/libvirt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Template terraform libvirt</title>
+      <link>http://localhost:1313/posts/template_terraform_libvirt/</link>
+      <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
+      <guid>http://localhost:1313/posts/template_terraform_libvirt/</guid>
+      <description>main.tf
+provider &amp;#34;libvirt&amp;#34; { uri = &amp;#34;qemu:///system&amp;#34; } </description>
+    </item>
+  </channel>
+</rss>

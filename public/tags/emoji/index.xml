@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>emoji on GlooK blog</title>
-    <link>https://glook137.github.io/tags/emoji/</link>
-    <description>Recent content in emoji on GlooK blog</description>
+    <title>Emoji on GlooK blog</title>
+    <link>http://localhost:1313/tags/emoji/</link>
+    <description>Recent content in Emoji on GlooK blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://glook137.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>https://glook137.github.io/posts/emoji-support/</link>
+      <link>http://localhost:1313/posts/emoji-support-papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://glook137.github.io/posts/emoji-support/</guid>
+      <guid>http://localhost:1313/posts/emoji-support-papermod/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
   </channel>
