@@ -2,19 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Terraform on GlooK blog</title>
-    <link>http://localhost:1313/tags/terraform/</link>
+    <link>https://glook137.github.io/tags/terraform/</link>
     <description>Recent content in Terraform on GlooK blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Mar 2024 17:19:34 +0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://glook137.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Template terraform libvirt</title>
-      <link>http://localhost:1313/posts/template_terraform_libvirt/</link>
+      <link>https://glook137.github.io/posts/template_terraform_libvirt/</link>
       <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
-      <guid>http://localhost:1313/posts/template_terraform_libvirt/</guid>
+      <guid>https://glook137.github.io/posts/template_terraform_libvirt/</guid>
       <description>main.tf
-provider &amp;#34;libvirt&amp;#34; { uri = &amp;#34;qemu:///system&amp;#34; } </description>
+provider &amp;#34;libvirt&amp;#34; { uri = &amp;#34;qemu:///system&amp;#34; #uri = &amp;#34;qemu+ssh://root@ip/system&amp;#34; } providers.tf
+terraform { required_providers { libvirt = { source = &amp;#34;dmacvicar/libvirt&amp;#34; } } }``` network.tf ```tf resource &amp;#34;libvirt_network&amp;#34; &amp;#34;test_net&amp;#34; { name = &amp;#34;networktest&amp;#34; mode = &amp;#34;nat&amp;#34; domain = &amp;#34;network_home.local&amp;#34; addresses = [&amp;#34;10.17.3.0/24&amp;#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf
+resource &amp;#34;libvirt_volume&amp;#34; &amp;#34;debian_base&amp;#34; { name = &amp;#34;debian_base&amp;#34; source = &amp;#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2&amp;#34; format = &amp;#34;qcow2&amp;#34; } resource &amp;#34;libvirt_volume&amp;#34; &amp;#34;alma_base&amp;#34; { name = &amp;#34;alma_base&amp;#34; source = &amp;#34;https://repo.</description>
     </item>
   </channel>
 </rss>

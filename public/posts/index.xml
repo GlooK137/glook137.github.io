@@ -2,48 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on GlooK blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://glook137.github.io/posts/</link>
     <description>Recent content in Posts on GlooK blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Mar 2024 17:19:34 +0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://glook137.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Template terraform libvirt</title>
-      <link>http://localhost:1313/posts/template_terraform_libvirt/</link>
+      <link>https://glook137.github.io/posts/template_terraform_libvirt/</link>
       <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
-      <guid>http://localhost:1313/posts/template_terraform_libvirt/</guid>
+      <guid>https://glook137.github.io/posts/template_terraform_libvirt/</guid>
       <description>main.tf
-provider &amp;#34;libvirt&amp;#34; { uri = &amp;#34;qemu:///system&amp;#34; } </description>
+provider &amp;#34;libvirt&amp;#34; { uri = &amp;#34;qemu:///system&amp;#34; #uri = &amp;#34;qemu+ssh://root@ip/system&amp;#34; } providers.tf
+terraform { required_providers { libvirt = { source = &amp;#34;dmacvicar/libvirt&amp;#34; } } }``` network.tf ```tf resource &amp;#34;libvirt_network&amp;#34; &amp;#34;test_net&amp;#34; { name = &amp;#34;networktest&amp;#34; mode = &amp;#34;nat&amp;#34; domain = &amp;#34;network_home.local&amp;#34; addresses = [&amp;#34;10.17.3.0/24&amp;#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf
+resource &amp;#34;libvirt_volume&amp;#34; &amp;#34;debian_base&amp;#34; { name = &amp;#34;debian_base&amp;#34; source = &amp;#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2&amp;#34; format = &amp;#34;qcow2&amp;#34; } resource &amp;#34;libvirt_volume&amp;#34; &amp;#34;alma_base&amp;#34; { name = &amp;#34;alma_base&amp;#34; source = &amp;#34;https://repo.</description>
     </item>
     <item>
       <title>Code Syntax Guide</title>
-      <link>http://localhost:1313/posts/code-sysntax-guide-papermod/</link>
+      <link>https://glook137.github.io/posts/code-sysntax-guide-papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/code-sysntax-guide-papermod/</guid>
+      <guid>https://glook137.github.io/posts/code-sysntax-guide-papermod/</guid>
       <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support-papermod/</link>
+      <link>https://glook137.github.io/posts/emoji-support-papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emoji-support-papermod/</guid>
+      <guid>https://glook137.github.io/posts/emoji-support-papermod/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
     <item>
       <title>Markdown Syntax Guide PaperMod</title>
-      <link>http://localhost:1313/posts/markdown-syntax-guide-papermod/</link>
+      <link>https://glook137.github.io/posts/markdown-syntax-guide-papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax-guide-papermod/</guid>
+      <guid>https://glook137.github.io/posts/markdown-syntax-guide-papermod/</guid>
       <description>Link to original
 Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
 H1 H2 H3 H4 H5 H6 # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://glook137.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://glook137.github.io/posts/my-first-post/</guid>
       <description>Hello, my name is GlooK! print(&amp;#34;Hello, world!&amp;#34;) </description>
     </item>
   </channel>

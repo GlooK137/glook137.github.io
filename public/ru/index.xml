@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GlooK blog</title>
-    <link>http://localhost:1313/ru/</link>
+    <link>https://glook137.github.io/ru/</link>
     <description>Recent content on GlooK blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <atom:link href="http://localhost:1313/ru/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://glook137.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

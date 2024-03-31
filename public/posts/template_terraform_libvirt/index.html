@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Template terraform libvirt | GlooK blog</title>
-<meta name="keywords" content="terraform, libvirt, ubuntu, template">
+<meta name="keywords" content="terraform, libvirt, debian, alma, template">
 <meta name="description" content="main.tf
-provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; } ">
+provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; #uri = &#34;qemu&#43;ssh://root@ip/system&#34; } providers.tf
+terraform { required_providers { libvirt = { source = &#34;dmacvicar/libvirt&#34; } } }``` network.tf ```tf resource &#34;libvirt_network&#34; &#34;test_net&#34; { name = &#34;networktest&#34; mode = &#34;nat&#34; domain = &#34;network_home.local&#34; addresses = [&#34;10.17.3.0/24&#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf
+resource &#34;libvirt_volume&#34; &#34;debian_base&#34; { name = &#34;debian_base&#34; source = &#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2&#34; format = &#34;qcow2&#34; } resource &#34;libvirt_volume&#34; &#34;alma_base&#34; { name = &#34;alma_base&#34; source = &#34;https://repo.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/template_terraform_libvirt/">
+<link rel="canonical" href="https://glook137.github.io/posts/template_terraform_libvirt/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/image/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/image/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/image/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/image/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/image/safari-pinned-tab.svg">
+<link rel="icon" href="https://glook137.github.io/image/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://glook137.github.io/image/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://glook137.github.io/image/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://glook137.github.io/image/apple-touch-icon.png">
+<link rel="mask-icon" href="https://glook137.github.io/image/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/template_terraform_libvirt/">
+<link rel="alternate" hreflang="en" href="https://glook137.github.io/posts/template_terraform_libvirt/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,7 +58,73 @@ provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; } ">
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:title" content="Template terraform libvirt" />
+<meta property="og:description" content="main.tf
+provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; #uri = &#34;qemu&#43;ssh://root@ip/system&#34; } providers.tf
+terraform { required_providers { libvirt = { source = &#34;dmacvicar/libvirt&#34; } } }``` network.tf ```tf resource &#34;libvirt_network&#34; &#34;test_net&#34; { name = &#34;networktest&#34; mode = &#34;nat&#34; domain = &#34;network_home.local&#34; addresses = [&#34;10.17.3.0/24&#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf
+resource &#34;libvirt_volume&#34; &#34;debian_base&#34; { name = &#34;debian_base&#34; source = &#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2&#34; format = &#34;qcow2&#34; } resource &#34;libvirt_volume&#34; &#34;alma_base&#34; { name = &#34;alma_base&#34; source = &#34;https://repo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://glook137.github.io/posts/template_terraform_libvirt/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-04T17:19:34+05:00" />
+<meta property="article:modified_time" content="2024-03-04T17:19:34+05:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Template terraform libvirt"/>
+<meta name="twitter:description" content="main.tf
+provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; #uri = &#34;qemu&#43;ssh://root@ip/system&#34; } providers.tf
+terraform { required_providers { libvirt = { source = &#34;dmacvicar/libvirt&#34; } } }``` network.tf ```tf resource &#34;libvirt_network&#34; &#34;test_net&#34; { name = &#34;networktest&#34; mode = &#34;nat&#34; domain = &#34;network_home.local&#34; addresses = [&#34;10.17.3.0/24&#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf
+resource &#34;libvirt_volume&#34; &#34;debian_base&#34; { name = &#34;debian_base&#34; source = &#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2&#34; format = &#34;qcow2&#34; } resource &#34;libvirt_volume&#34; &#34;alma_base&#34; { name = &#34;alma_base&#34; source = &#34;https://repo."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://glook137.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Template terraform libvirt",
+      "item": "https://glook137.github.io/posts/template_terraform_libvirt/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Template terraform libvirt",
+  "name": "Template terraform libvirt",
+  "description": "main.tf\nprovider \u0026#34;libvirt\u0026#34; { uri = \u0026#34;qemu:///system\u0026#34; #uri = \u0026#34;qemu+ssh://root@ip/system\u0026#34; } providers.tf\nterraform { required_providers { libvirt = { source = \u0026#34;dmacvicar/libvirt\u0026#34; } } }``` network.tf ```tf resource \u0026#34;libvirt_network\u0026#34; \u0026#34;test_net\u0026#34; { name = \u0026#34;networktest\u0026#34; mode = \u0026#34;nat\u0026#34; domain = \u0026#34;network_home.local\u0026#34; addresses = [\u0026#34;10.17.3.0/24\u0026#34;] dhcp { enabled = false } dns{ enabled = true } } variables.tf\nresource \u0026#34;libvirt_volume\u0026#34; \u0026#34;debian_base\u0026#34; { name = \u0026#34;debian_base\u0026#34; source = \u0026#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2\u0026#34; format = \u0026#34;qcow2\u0026#34; } resource \u0026#34;libvirt_volume\u0026#34; \u0026#34;alma_base\u0026#34; { name = \u0026#34;alma_base\u0026#34; source = \u0026#34;https://repo.",
+  "keywords": [
+    "terraform", "libvirt", "debian", "alma", "template"
+  ],
+  "articleBody": "main.tf\nprovider \"libvirt\" { uri = \"qemu:///system\" #uri = \"qemu+ssh://root@ip/system\" } providers.tf\nterraform { required_providers { libvirt = { source = \"dmacvicar/libvirt\" } } }``` network.tf ```tf resource \"libvirt_network\" \"test_net\" { name = \"networktest\" mode = \"nat\" domain = \"network_home.local\" addresses = [\"10.17.3.0/24\"] dhcp { enabled = false } dns{ enabled = true } } variables.tf\nresource \"libvirt_volume\" \"debian_base\" { name = \"debian_base\" source = \"https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2\" format = \"qcow2\" } resource \"libvirt_volume\" \"alma_base\" { name = \"alma_base\" source = \"https://repo.almalinux.org/almalinux/8.9/cloud/x86_64/images/AlmaLinux-8-GenericCloud-8.9-20231128.x86_64.qcow2\" format = \"qcow2\" } variable \"debian_count\" { type = number default = 1 } variable \"alma_count\" { type = number default = 0 } resourses.tf\nresource \"libvirt_volume\" \"debian\" { name = \"debian_tf_${count.index}.qcow2\" base_volume_id = libvirt_volume.debian_base.id count = var.debian_count pool = \"default\" size = 64424509440 } resource \"libvirt_volume\" \"alma\" { name = \"alma_tf_${count.index}.qcow2\" base_volume_id = libvirt_volume.alma_base.id count = var.alma_count pool = \"default\" size = 64424509440 } cloud_init.cfg\n#cloud-config ssh_pwauth: True users: - name: q ssh-authorized-keys: - ${file(\"../keys/id_rsa.pub\")} sudo: ['ALL=(ALL) NOPASSWD:ALL'] groups: sudo shell: /bin/bash - name: sa ssh-authorized-keys: - ${file(\"../sa_keys/sa_id_rsa.pub\")} sudo: ['ALL=(ALL) NOPASSWD:ALL'] groups: sudo shell: /bin/bash cloudinit.tf\nresource \"libvirt_cloudinit_disk\" \"commoninit\" { name = \"commoninit.iso\" user_data = data.template_file.user_data.rendered } data \"template_file\" \"user_data\" { template = file(\"${path.module}/cloud_init.cfg\") } domain.tf\nresource \"libvirt_domain\" \"domain_debian\" { name = \"debian_tf_${count.index}\" vcpu = 1 disk { volume_id = libvirt_volume.debian.*.id[count.index] } memory = \"1024\" cloudinit = libvirt_cloudinit_disk.commoninit.id network_interface { network_id = libvirt_network.test_net.id wait_for_lease = true hostname = \"debian_${count.index}\" addresses = [\"10.17.3.1${count.index+1}\"] } count = var.debian_count } resource \"libvirt_domain\" \"domain_alma\" { name = \"alma_tf_${count.index}\" vcpu = 1 disk { volume_id = libvirt_volume.alma.*.id[count.index] } memory = \"2048\" cloudinit = libvirt_cloudinit_disk.commoninit.id network_interface { network_id = libvirt_network.test_net.id wait_for_lease = true hostname = \"alma_${count.index}\" addresses = [\"10.17.3.2${count.index+1}\"] } count = var.alma_count } output.tf\noutput \"debian_ip\"{ value = [for i in libvirt_domain.domain_debian: i.network_interface[0].addresses[0]] } output \"alma_ip\"{ value = [for i in libvirt_domain.domain_alma: i.network_interface[0].addresses[0]] } ",
+  "wordCount" : "300",
+  "inLanguage": "en",
+  "datePublished": "2024-03-04T17:19:34+05:00",
+  "dateModified": "2024-03-04T17:19:34+05:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://glook137.github.io/posts/template_terraform_libvirt/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "GlooK blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://glook137.github.io/image/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -74,7 +142,7 @@ provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; } ">
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="GlooK blog (Alt + H)">GlooK blog</a>
+            <a href="https://glook137.github.io/" accesskey="h" title="GlooK blog (Alt + H)">GlooK blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -98,7 +166,7 @@ provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; } ">
                 </button>
                 <ul class="lang-switch"><li>|</li>
                     <li>
-                        <a href="http://localhost:1313/ru/" title="🇷🇺"
+                        <a href="https://glook137.github.io/ru/" title="🇷🇺"
                             aria-label=":ru:">Ru</a>
                     </li>
                 </ul>
@@ -106,7 +174,7 @@ provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; } ">
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
+                <a href="https://glook137.github.io/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -127,7 +195,136 @@ provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; } ">
   </header> 
   <div class="post-content"><p>main.tf</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tf" data-lang="tf"><span style="display:flex;"><span><span style="color:#66d9ef">provider</span> <span style="color:#e6db74">&#34;libvirt&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">uri</span> = <span style="color:#e6db74">&#34;qemu:///system&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">uri</span> = <span style="color:#e6db74">&#34;qemu:///system&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  #uri = &#34;qemu+ssh://root@ip/system&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>providers.tf</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tf" data-lang="tf"><span style="display:flex;"><span><span style="color:#a6e22e">terraform</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">required_providers</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">libvirt</span> = {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">source</span>  = <span style="color:#e6db74">&#34;dmacvicar/libvirt&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}<span style="color:#960050;background-color:#1e0010">```</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">network</span>.<span style="color:#a6e22e">tf</span> 
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">```</span><span style="color:#a6e22e">tf</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_network&#34;</span> <span style="color:#e6db74">&#34;test_net&#34;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span>      = <span style="color:#e6db74">&#34;networktest&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">mode</span>      = <span style="color:#e6db74">&#34;nat&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">domain</span>    = <span style="color:#e6db74">&#34;network_home.local&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">addresses</span> = [<span style="color:#e6db74">&#34;10.17.3.0/24&#34;</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">dhcp</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">enabled</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">dns</span>{
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">enabled</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>variables.tf</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tf" data-lang="tf"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_volume&#34;</span> <span style="color:#e6db74">&#34;debian_base&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span>   = <span style="color:#e6db74">&#34;debian_base&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">source</span> = <span style="color:#e6db74">&#34;https://cloud.debian.org/images/cloud/bookworm/daily/20240307-1679/debian-12-genericcloud-amd64-daily-20240307-1679.qcow2&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">format</span> = <span style="color:#e6db74">&#34;qcow2&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_volume&#34;</span> <span style="color:#e6db74">&#34;alma_base&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span>   = <span style="color:#e6db74">&#34;alma_base&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">source</span> = <span style="color:#e6db74">&#34;https://repo.almalinux.org/almalinux/8.9/cloud/x86_64/images/AlmaLinux-8-GenericCloud-8.9-20231128.x86_64.qcow2&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">format</span> = <span style="color:#e6db74">&#34;qcow2&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">variable</span> <span style="color:#e6db74">&#34;debian_count&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">type</span> = <span style="color:#a6e22e">number</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">default</span> = <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">variable</span> <span style="color:#e6db74">&#34;alma_count&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">type</span> = <span style="color:#a6e22e">number</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">default</span> = <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>resourses.tf</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tf" data-lang="tf"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_volume&#34;</span> <span style="color:#e6db74">&#34;debian&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span>           = <span style="color:#e6db74">&#34;debian_tf_</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#e6db74">}</span><span style="color:#e6db74">.qcow2&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">base_volume_id</span> = <span style="color:#a6e22e">libvirt_volume</span>.<span style="color:#a6e22e">debian_base</span>.<span style="color:#a6e22e">id</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">count</span>          = var.<span style="color:#a6e22e">debian_count</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">pool</span> = <span style="color:#e6db74">&#34;default&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">size</span> = <span style="color:#ae81ff">64424509440</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_volume&#34;</span> <span style="color:#e6db74">&#34;alma&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span>           = <span style="color:#e6db74">&#34;alma_tf_</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#e6db74">}</span><span style="color:#e6db74">.qcow2&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">base_volume_id</span> = <span style="color:#a6e22e">libvirt_volume</span>.<span style="color:#a6e22e">alma_base</span>.<span style="color:#a6e22e">id</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">count</span>          = var.<span style="color:#a6e22e">alma_count</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">pool</span> = <span style="color:#e6db74">&#34;default&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">size</span> = <span style="color:#ae81ff">64424509440</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>cloud_init.cfg</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cfg" data-lang="cfg"><span style="display:flex;"><span><span style="color:#75715e">#cloud-config</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ssh_pwauth: True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">users:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">- name: q</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ssh-authorized-keys:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">- ${file(&#34;../keys/id_rsa.pub&#34;)}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sudo: [&#39;ALL</span><span style="color:#f92672">=</span><span style="color:#e6db74">(ALL) NOPASSWD:ALL&#39;]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    groups: sudo
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    shell: /bin/bash</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">- name: sa</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ssh-authorized-keys:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">- ${file(&#34;../sa_keys/sa_id_rsa.pub&#34;)}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sudo: [&#39;ALL</span><span style="color:#f92672">=</span><span style="color:#e6db74">(ALL) NOPASSWD:ALL&#39;]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    groups: sudo
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    shell: /bin/bash</span>
+</span></span></code></pre></div><p>cloudinit.tf</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tf" data-lang="tf"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_cloudinit_disk&#34;</span> <span style="color:#e6db74">&#34;commoninit&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span>      = <span style="color:#e6db74">&#34;commoninit.iso&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">user_data</span> = data.<span style="color:#a6e22e">template_file</span>.<span style="color:#a6e22e">user_data</span>.<span style="color:#a6e22e">rendered</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">data</span> <span style="color:#e6db74">&#34;template_file&#34;</span> <span style="color:#e6db74">&#34;user_data&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">template</span> = file(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">path</span>.module<span style="color:#e6db74">}</span><span style="color:#e6db74">/cloud_init.cfg&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>domain.tf</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tf" data-lang="tf"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_domain&#34;</span> <span style="color:#e6db74">&#34;domain_debian&#34;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;debian_tf_</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">vcpu</span> = <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">disk</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">volume_id</span> = <span style="color:#a6e22e">libvirt_volume</span>.<span style="color:#a6e22e">debian</span>.<span style="color:#f92672">*</span>.<span style="color:#a6e22e">id</span>[count.<span style="color:#a6e22e">index</span>]
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">memory</span> = <span style="color:#e6db74">&#34;1024&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cloudinit</span> = <span style="color:#a6e22e">libvirt_cloudinit_disk</span>.<span style="color:#a6e22e">commoninit</span>.<span style="color:#a6e22e">id</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">network_interface</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">network_id</span> = <span style="color:#a6e22e">libvirt_network</span>.<span style="color:#a6e22e">test_net</span>.<span style="color:#a6e22e">id</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">wait_for_lease</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">hostname</span> = <span style="color:#e6db74">&#34;debian_</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">addresses</span>      = [<span style="color:#e6db74">&#34;10.17.3.1</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>] 
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">count</span> = var.<span style="color:#a6e22e">debian_count</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;libvirt_domain&#34;</span> <span style="color:#e6db74">&#34;domain_alma&#34;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;alma_tf_</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">vcpu</span> = <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">disk</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">volume_id</span> = <span style="color:#a6e22e">libvirt_volume</span>.<span style="color:#a6e22e">alma</span>.<span style="color:#f92672">*</span>.<span style="color:#a6e22e">id</span>[count.<span style="color:#a6e22e">index</span>]
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">memory</span> = <span style="color:#e6db74">&#34;2048&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cloudinit</span> = <span style="color:#a6e22e">libvirt_cloudinit_disk</span>.<span style="color:#a6e22e">commoninit</span>.<span style="color:#a6e22e">id</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">network_interface</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">network_id</span> = <span style="color:#a6e22e">libvirt_network</span>.<span style="color:#a6e22e">test_net</span>.<span style="color:#a6e22e">id</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">wait_for_lease</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">hostname</span> = <span style="color:#e6db74">&#34;alma_</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">addresses</span>      = [<span style="color:#e6db74">&#34;10.17.3.2</span><span style="color:#e6db74">${</span>count.<span style="color:#a6e22e">index</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>] 
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">count</span> = var.<span style="color:#a6e22e">alma_count</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>output.tf</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tf" data-lang="tf"><span style="display:flex;"><span><span style="color:#66d9ef">output</span> <span style="color:#e6db74">&#34;debian_ip&#34;</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">value</span> = [<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">libvirt_domain</span>.<span style="color:#a6e22e">domain_debian</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">i</span>.<span style="color:#a6e22e">network_interface</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">addresses</span>[<span style="color:#ae81ff">0</span>]]
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">output</span> <span style="color:#e6db74">&#34;alma_ip&#34;</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">value</span> = [<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">libvirt_domain</span>.<span style="color:#a6e22e">domain_alma</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">i</span>.<span style="color:#a6e22e">network_interface</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">addresses</span>[<span style="color:#ae81ff">0</span>]]
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
 
@@ -135,17 +332,18 @@ provider &#34;libvirt&#34; { uri = &#34;qemu:///system&#34; } ">
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/terraform/">Terraform</a></li>
-      <li><a href="http://localhost:1313/tags/libvirt/">Libvirt</a></li>
-      <li><a href="http://localhost:1313/tags/ubuntu/">Ubuntu</a></li>
-      <li><a href="http://localhost:1313/tags/template/">Template</a></li>
+      <li><a href="https://glook137.github.io/tags/terraform/">Terraform</a></li>
+      <li><a href="https://glook137.github.io/tags/libvirt/">Libvirt</a></li>
+      <li><a href="https://glook137.github.io/tags/debian/">Debian</a></li>
+      <li><a href="https://glook137.github.io/tags/alma/">Alma</a></li>
+      <li><a href="https://glook137.github.io/tags/template/">Template</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/">GlooK blog</a></span>
+    <span>&copy; 2024 <a href="https://glook137.github.io/">GlooK blog</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

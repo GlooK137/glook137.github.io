@@ -2,101 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on GlooK blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://glook137.github.io/tags/</link>
     <description>Recent content in Tags on GlooK blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Mar 2024 17:19:34 +0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://glook137.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alma</title>
+      <link>https://glook137.github.io/tags/alma/</link>
+      <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
+      <guid>https://glook137.github.io/tags/alma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debian</title>
+      <link>https://glook137.github.io/tags/debian/</link>
+      <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
+      <guid>https://glook137.github.io/tags/debian/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Libvirt</title>
-      <link>http://localhost:1313/tags/libvirt/</link>
+      <link>https://glook137.github.io/tags/libvirt/</link>
       <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
-      <guid>http://localhost:1313/tags/libvirt/</guid>
+      <guid>https://glook137.github.io/tags/libvirt/</guid>
       <description></description>
     </item>
     <item>
       <title>Template</title>
-      <link>http://localhost:1313/tags/template/</link>
+      <link>https://glook137.github.io/tags/template/</link>
       <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
-      <guid>http://localhost:1313/tags/template/</guid>
+      <guid>https://glook137.github.io/tags/template/</guid>
       <description></description>
     </item>
     <item>
       <title>Terraform</title>
-      <link>http://localhost:1313/tags/terraform/</link>
+      <link>https://glook137.github.io/tags/terraform/</link>
       <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
-      <guid>http://localhost:1313/tags/terraform/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ubuntu</title>
-      <link>http://localhost:1313/tags/ubuntu/</link>
-      <pubDate>Mon, 04 Mar 2024 17:19:34 +0500</pubDate>
-      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <guid>https://glook137.github.io/tags/terraform/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>http://localhost:1313/tags/code/</link>
+      <link>https://glook137.github.io/tags/code/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/code/</guid>
+      <guid>https://glook137.github.io/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>http://localhost:1313/tags/css/</link>
+      <link>https://glook137.github.io/tags/css/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/css/</guid>
+      <guid>https://glook137.github.io/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Emoji</title>
-      <link>http://localhost:1313/tags/emoji/</link>
+      <link>https://glook137.github.io/tags/emoji/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/emoji/</guid>
+      <guid>https://glook137.github.io/tags/emoji/</guid>
       <description></description>
     </item>
     <item>
       <title>Gist</title>
-      <link>http://localhost:1313/tags/gist/</link>
+      <link>https://glook137.github.io/tags/gist/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gist/</guid>
+      <guid>https://glook137.github.io/tags/gist/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>http://localhost:1313/tags/html/</link>
+      <link>https://glook137.github.io/tags/html/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/html/</guid>
+      <guid>https://glook137.github.io/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/tags/markdown/</link>
+      <link>https://glook137.github.io/tags/markdown/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/markdown/</guid>
+      <guid>https://glook137.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Papermod</title>
-      <link>http://localhost:1313/tags/papermod/</link>
+      <link>https://glook137.github.io/tags/papermod/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/papermod/</guid>
+      <guid>https://glook137.github.io/tags/papermod/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntax</title>
-      <link>http://localhost:1313/tags/syntax/</link>
+      <link>https://glook137.github.io/tags/syntax/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/syntax/</guid>
+      <guid>https://glook137.github.io/tags/syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>http://localhost:1313/tags/themes/</link>
+      <link>https://glook137.github.io/tags/themes/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/themes/</guid>
+      <guid>https://glook137.github.io/tags/themes/</guid>
       <description></description>
     </item>
   </channel>

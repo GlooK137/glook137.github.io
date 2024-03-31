@@ -2,80 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://glook137.github.io/tags/alma/</loc>
+    <lastmod>2024-03-04T17:19:34+05:00</lastmod>
+  </url><url>
+    <loc>https://glook137.github.io/tags/debian/</loc>
+    <lastmod>2024-03-04T17:19:34+05:00</lastmod>
+  </url><url>
+    <loc>https://glook137.github.io/</loc>
     <lastmod>2024-03-04T17:19:34+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://localhost:1313/ru/"
+                href="https://glook137.github.io/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://glook137.github.io/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/libvirt/</loc>
+    <loc>https://glook137.github.io/tags/libvirt/</loc>
     <lastmod>2024-03-04T17:19:34+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://glook137.github.io/posts/</loc>
     <lastmod>2024-03-04T17:19:34+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://glook137.github.io/tags/</loc>
     <lastmod>2024-03-04T17:19:34+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/template/</loc>
+    <loc>https://glook137.github.io/tags/template/</loc>
     <lastmod>2024-03-04T17:19:34+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/template_terraform_libvirt/</loc>
+    <loc>https://glook137.github.io/posts/template_terraform_libvirt/</loc>
     <lastmod>2024-03-04T17:19:34+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/terraform/</loc>
+    <loc>https://glook137.github.io/tags/terraform/</loc>
     <lastmod>2024-03-04T17:19:34+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ubuntu/</loc>
-    <lastmod>2024-03-04T17:19:34+05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/roadmap/</loc>
+    <loc>https://glook137.github.io/roadmap/</loc>
     <lastmod>2024-02-23T20:32:43+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
+    <loc>https://glook137.github.io/tags/code/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/code-sysntax-guide-papermod/</loc>
+    <loc>https://glook137.github.io/posts/code-sysntax-guide-papermod/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>https://glook137.github.io/tags/css/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
+    <loc>https://glook137.github.io/tags/emoji/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/emoji-support-papermod/</loc>
+    <loc>https://glook137.github.io/posts/emoji-support-papermod/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gist/</loc>
+    <loc>https://glook137.github.io/tags/gist/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>https://glook137.github.io/tags/html/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://glook137.github.io/tags/markdown/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/markdown-syntax-guide-papermod/</loc>
+    <loc>https://glook137.github.io/posts/markdown-syntax-guide-papermod/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://glook137.github.io/posts/my-first-post/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/papermod/</loc>
+    <loc>https://glook137.github.io/tags/papermod/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/syntax/</loc>
+    <loc>https://glook137.github.io/tags/syntax/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>https://glook137.github.io/tags/themes/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url>
 </urlset>
